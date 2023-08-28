@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(céu.jpg);
+    background-image: url(..céu.jpg);
     background-size: 100%;
     
 }
@@ -9,7 +9,7 @@ body{
 .sun{
     height: 120px;
     width: 120px;
-    background-image: url(sol\ 2.jpg);
+    background-image: url(..sol.jpg);
     border-radius: 100%;
     background-size: cover;
     box-shadow: -4px 5px 100px #f9c05f;
