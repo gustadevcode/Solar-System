@@ -9,7 +9,7 @@ body{
 .sun{
     height: 120px;
     width: 120px;
-    background-image: url("sol.jpg");
+    background-image: url(/sol.jpg);
     border-radius: 100%;
     background-size: cover;
     box-shadow: -4px 5px 100px #f9c05f;
@@ -133,3 +133,26 @@ body{
             from{transform: rotate(0deg)translateX(33px)rotate(0deg);}
             to{transform: rotate(360deg)translateX(33px)rotate(-360deg);}
         }
+
+
+        .mars{
+            height: 30px;
+            width:30px;
+            background: white;
+            background-size: 100% ;
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: -4px 2px 56px #fea535;
+            left: 46.5%;
+            top: 46.5%;
+            transform: translate(-50%,-50%);
+            animation: orbit6 30s linear infinite;
+        }
+                @keyframes orbit6 {
+                    from{transform: rotate(0deg)translateX(185px)rotate(0deg);}
+                    to{transform: rotate(360deg)translateX(185px)rotate(-360deg);}
+                }
+                    .mars-outline{
+                        height: 370px;
+                        width: 370px;
+                    }
