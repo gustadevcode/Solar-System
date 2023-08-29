@@ -9,7 +9,7 @@ body {
 .sun {
     height: 120px;
     width: 120px;
-    background-image: url(/sol.jpg);
+    background-image: url(sol.jpg);
     border-radius: 100%;
     background-size: cover;
     box-shadow: -4px 5px 100px #f9c05f;
