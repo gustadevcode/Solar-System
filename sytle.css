@@ -25,10 +25,11 @@ body {
 .mercury {
     height: 25px;
     width: 25px;
-    background: #a94c2b;
-    border-radius: 50%;
+    background-image: url(mercury.jpg);
+    background-size: cover;
+    border-radius: 100%;
     position: absolute;
-    box-shadow: -4px 2px 56px #f9c05f;
+    box-shadow: -4px 2px 56px #ad7616;
     left: 43%;
     top: 42%;
     transform: translate(-50%, -50%);
@@ -74,7 +75,7 @@ p {
 .venus {
     height: 40px;
     width: 40px;
-    background: white;
+    background-image: url(venus.jpg);
     background-size: 100%;
     border-radius: 50%;
     position: absolute;
@@ -101,11 +102,11 @@ p {
 .earth {
     height: 50px;
     width: 50px;
-    background: white;
+    background-image: url(earth.jpg);
     background-size: 100%;
     border-radius: 50%;
     position: absolute;
-    box-shadow: -4px 2px 56px #2855d6;
+    box-shadow: -4px 2px 56px #143592;
     left: 44%;
     top: 43%;
     transform: translate(-50%, -50%);
@@ -158,8 +159,8 @@ p {
 .mars {
     height: 30px;
     width: 30px;
-    background: white;
-    background-size: 100%;
+    background-image: url(mars.jpg);;
+    background-size: cover;
     border-radius: 50%;
     position: absolute;
     box-shadow: -4px 2px 56px #fea535;
@@ -183,7 +184,7 @@ p {
 .jupiter {
     height: 40px;
     width: 40px;
-    background: white;
+    background-image: url(Jupiter.webp);
     background-size: 100%;
     border-radius: 50%;
     position: absolute;
@@ -207,14 +208,14 @@ p {
 .saturn {
     height: 50px;
     width: 50px;
-    background: red;
-    background-size: 100%;
+    background-image: url(saturn.jpg);
+    background-size: cover;
     border-radius: 50%;
     position: absolute;
-    box-shadow: -4px 2px 56px #fea535;
+    box-shadow: -4px 2px 56px #674924;
     left: 45%;
     top: 45%;
-    transform: translate(-50%, -50%);
+    transform: translate(-10%, -5%);
     animation: orbit8 90s linear infinite;
 }
 
@@ -231,8 +232,8 @@ p {
 .uranus {
     height: 30px;
     width: 30px;
-    background: red;
-    background-size: 100%;
+    background-image: url(uranus.jpg);
+    background-size:cover;
     border-radius: 50%;
     position: absolute;
     box-shadow: -4px 2px 56px #cac2b9;
@@ -255,7 +256,7 @@ p {
 .neptune {
     height: 30px;
     width: 30px;
-    background: red;
+    background-image: url(netuno.jpg);
     background-size: 100%;
     border-radius: 50%;
     position: absolute;
